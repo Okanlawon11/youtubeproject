@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HoverTransitionShadow</title>
+
+    <style>
+      .subscribe{
+        background-color: rgb(200, 0, 0);
+        color: white;
+        border: none;
+        height: 36px;
+        width: 105px;
+        border-radius: 2px;
+        cursor: pointer;
+        margin-right: 8px;
+        transition: opacity 0.8s;
+      }
+
+      .subscribe:hover{
+        opacity: 0.7;
+      }
+
+      .subscribe:active{
+        opacity: 0.5;
+      }
+
+      .join{
+        background-color: white;
+        color: rgb(6, 95, 212);
+        height: 36px;
+        width: 70px;
+        border-style: solid;
+        border-color: rgb(6, 95, 212);
+        border-radius: 2px;
+        border-width: 1px;
+        cursor: pointer;
+        transition: background-color 0.5, color 0.5;
+      }
+
+      .join:hover{
+        background-color: rgb(6, 95, 212);
+        color: white;
+      }
+
+      .join:active{
+        opacity: 0.7;
+      }
+
+      .tweet{
+        background-color: rgb(29, 155, 240);
+        color: white;
+        border: none;
+        border-radius: 20px;
+        height: 36px;
+        width: 70px;
+        font-weight: bold;
+        font-size: 15px;
+        cursor: pointer;
+        margin-left: 8px;
+        transition: box-shadow 0.5;
+      }
+
+      .tweet:hover{
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+      }
+
+      .tweet:active{
+        opacity: 0.7;
+      }
+
+    </style>
+  </head>
+  
+  <body>
+    <button class="subscribe">SUBSCRIBE</button>
+
+    <button class="join">JOIN</button>
+
+    <button class="tweet">Tweet</button>
+    
+    
+  </body>
+</html>
